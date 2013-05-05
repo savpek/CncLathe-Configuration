@@ -36,12 +36,12 @@
   <property name="latency" type="float" value="9000.0"/>
   <property name="machinename" type="string" value="LinuxCnc"/>
   <property name="manualtoolchange" type="bool" value="True"/>
-  <property name="md5sums" type="eval" value="[('/home/cnc/linuxcnc/configs/LinuxCnc/README', 'c81a600e8f233015b523f827e7f4254a'), ('/home/cnc/linuxcnc/configs/LinuxCnc/LinuxCnc.ini', 'e7db32d4749c2c6c7a469db938ac693c'), ('/home/cnc/linuxcnc/configs/LinuxCnc/LinuxCnc.hal', '77e0e1155ca72470f312f3ccae059b64')]"/>
+  <property name="md5sums" type="eval" value="[('/home/cnc/linuxcnc/configs/LinuxCnc/README', 'd4632e310860abd62e08fb0eecaf360f'), ('/home/cnc/linuxcnc/configs/LinuxCnc/LinuxCnc.ini', '486d6205129d710f6d70102ea0470a77'), ('/home/cnc/linuxcnc/configs/LinuxCnc/LinuxCnc.hal', 'f981f7a65b2d49baaf51472da75788c7')]"/>
   <property name="modbus" type="bool" value="False"/>
   <property name="number_pports" type="int" value="1"/>
   <property name="period" type="int" value="25000"/>
   <property name="pin1" type="string" value="charge-pump"/>
-  <property name="pin10" type="string" value="unused-input"/>
+  <property name="pin10" type="string" value="home-x"/>
   <property name="pin10inv" type="bool" value="False"/>
   <property name="pin11" type="string" value="unused-input"/>
   <property name="pin11inv" type="bool" value="False"/>
@@ -96,15 +96,15 @@
   <property name="units" type="int" value="1"/>
   <property name="usespindleatspeed" type="bool" value="False"/>
   <property name="xhomepos" type="float" value="0.0"/>
-  <property name="xhomesw" type="float" value="0.0"/>
-  <property name="xhomevel" type="float" value="0.05"/>
+  <property name="xhomesw" type="float" value="-15.0"/>
+  <property name="xhomevel" type="float" value="-9.0"/>
   <property name="xlatchdir" type="int" value="0"/>
   <property name="xleadscrew" type="float" value="5.0"/>
   <property name="xmaxacc" type="float" value="30.0"/>
-  <property name="xmaxlim" type="float" value="100.0"/>
+  <property name="xmaxlim" type="float" value="0.0"/>
   <property name="xmaxvel" type="float" value="15.0"/>
   <property name="xmicrostep" type="float" value="4.0"/>
-  <property name="xminlim" type="float" value="-100.0"/>
+  <property name="xminlim" type="float" value="-180.0"/>
   <property name="xpulleyden" type="float" value="1.0"/>
   <property name="xpulleynum" type="float" value="1.0"/>
   <property name="xscale" type="float" value="160.0"/>
@@ -125,14 +125,14 @@
   <property name="ysteprev" type="float" value="200.0"/>
   <property name="zhomepos" type="float" value="0.0"/>
   <property name="zhomesw" type="float" value="0.0"/>
-  <property name="zhomevel" type="float" value="0.05"/>
+  <property name="zhomevel" type="float" value="-3.0"/>
   <property name="zlatchdir" type="int" value="0"/>
   <property name="zleadscrew" type="float" value="3.0"/>
   <property name="zmaxacc" type="float" value="30.0"/>
   <property name="zmaxlim" type="float" value="100.0"/>
   <property name="zmaxvel" type="float" value="15.0"/>
   <property name="zmicrostep" type="float" value="4.0"/>
-  <property name="zminlim" type="float" value="-100.0"/>
+  <property name="zminlim" type="float" value="0.0"/>
   <property name="zpulleyden" type="float" value="1.0"/>
   <property name="zpulleynum" type="float" value="1.0"/>
   <property name="zscale" type="float" value="266.666666667"/>
